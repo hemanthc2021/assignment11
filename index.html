@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body style="background-color: rgb(244, 242, 242);">
+    <div style="width: 300px; height: 300px; margin: 0 auto;">
+        <form action="" method="post" name="feedbackForm"  >
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" name="username" id="name">
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><p id="nameMessages" style="display: none;"></p></td>
+                </tr>
+                <tr>
+                    <td> <label for="email">Email:</label></td>
+                    <td>
+                        <input type="email" name="email" id="email">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td> 
+                        <p id="emailMessages" style="display: none;"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="feedback">Feedback:</label></td>
+                    <td>
+                        <textarea name="feedback" id="feedback"></textarea>
+                    
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><p id="feedbackMessages" style="display: none;"></p></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+
+            <button id="button" style="width: 100px; height: 30px; margin-left: 75px;" >Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
